@@ -1,0 +1,36 @@
+.title{
+    text-align: center;
+    font-weight: 1000;
+    font-size: medium;
+    margin-top: 20rpx;
+
+}
+.img{
+    width: 100%;
+    height: 500rpx;
+    margin-top: 20rpx;
+    margin-left: 10rpx;
+    margin-right: 10rpx;
+}
+.img image{
+    width: 100%;
+    height: 100%;
+}
+
+.content{
+    margin-top: 10rpx;
+    margin-bottom: 10rpx;
+    margin-left: 10rpx;
+    margin-right:10rpx ;
+}
+
+.close{
+    background-color: #4CAF50;
+    align-content: center;
+    text-align: center;
+    height: 60rpx;
+    width: 250rpx;
+    margin: auto;
+    margin-bottom: 100rpx;
+}
+

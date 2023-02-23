@@ -1,0 +1,146 @@
+.banner{
+  width: 100%;
+  height: 450rpx;
+  border-radius: 20rpx;
+}
+
+.swiper_main{
+    width: 100%;
+    height: 100%;
+}
+
+.tz{
+  width: 730rpx;
+  height: 100rpx;
+  background-color:#cdcdcd;
+  margin-top: 20rpx;
+  margin-left: 10rpx;
+  border-radius: 20rpx;
+}
+
+.icon{
+  width: 80rpx;
+  height:80rpx;
+  margin-top: 10rpx;
+  margin-left: 40rpx;
+  float: left;
+}
+
+.icon image{
+  height: 100%;
+  width: 100%;
+}
+.swiper-news {
+  width: 380rpx;
+  height:80rpx;
+  margin-top: 25rpx;
+  margin-left: 40rpx;
+  float: right;
+}
+.swiper-news text{
+  align-content: center;
+}
+
+
+
+/* 推荐板块 */
+.hot_Title{
+  height: 100rpx;
+  width: 750rpx;
+  margin-top: 30rpx;
+}
+.tuijian{
+  width: 300rpx;
+  height:80rpx;
+  margin-top: 10rpx;
+  margin-left: 40rpx;
+  float: left;
+  display: flex;
+  flex-direction: row;
+}
+.tuijian image{
+  height: 100%;
+  width: 100rpx;
+}
+.tuijian text{
+  margin-top: 20rpx;
+  color: black;
+  font-size:small;
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+/* 排行榜 */
+.paihang{
+  width: 300rpx;
+  height:80rpx;
+  float: right;
+  margin-top: 10rpx;
+  display: flex;
+  flex-direction: row;
+  margin-left: 40rpx;
+}
+.paihang image{
+  height: 70rpx;
+  width: 90rpx;
+  margin-left: 70rpx;
+}
+.paihang text{
+  margin-top: 20rpx;
+  color:coral;
+  font-size:small;
+  display: flex;
+  flex-direction: row;
+  margin-left: 10rpx;
+}
+
+/* 推荐的视频板块 */
+.hotList{
+  height: 650rpx;
+  width: 750rpx;
+  margin-top: 15rpx; 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.video-item{
+  width: 350rpx;
+  height: 350rpx;
+  padding: 10rpx;
+  text-align: center;
+}
+.video-item image{
+  margin-left: 10rpx;
+}
+.video-item-text{
+  margin-left: 15rpx;
+  margin-right: 15rpx;
+  flex: 1;
+  color:black;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: smaller;
+}
+.bofang-data{
+  height: 80rpx;
+  width: 400rpx;
+  font-size: smaller;
+  display: flex;
+  flex-direction: row;
+}
+.play-image image{
+  width: 40rpx;
+  height: 40rpx;
+  margin-top: 5rpx;
+}
+.bofang-num{
+  font-size: smaller;
+  color:#8a8a8a;
+  margin-top: 10rpx;
+}
+
+

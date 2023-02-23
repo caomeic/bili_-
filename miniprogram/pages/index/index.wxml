@@ -1,0 +1,110 @@
+<view class="banner" >
+<swiper class="swiper_main" indicator-dots="true" autoplay="true"
+   interval="5000" duration="1000" indicator-active-color="#EA6CAF">
+      <block wx:for="{{imgList}}">
+        <swiper-item>
+            <image mode="scaleToFill" src="{{item.photo}}" class="slide-image" style="height: 100%; width: 100%;"/>
+        </swiper-item>
+      </block>
+</swiper>
+</view>
+<!-- 公告栏 -->
+<view class="tz">
+    <view class="icon">
+        <image src="../../images/冒险 海贼 骷髅 海盗.png" mode="scaleToFill"></image>
+    </view>
+    <swiper class="swiper-news" vertical="true" autoplay="true" circular="true" interval="3000">
+        <block wx:for="{{textList}}">
+            <navigator url="/pages/detail/detail?id={{item._id}}" open-type="navigate" hover-class="navigator-hover" bindtap="dian">
+                <swiper-item>
+                    <view>{{item.tz_title}}</view>
+                </swiper-item>
+            </navigator>
+        </block>
+    </swiper>
+</view>
+<!-- 热门推荐和排行榜 -->
+<view class="hot_Title">
+    <view class="tuijian">
+      <image src="/images/商品推广.png" mode="scaleToFill"></image>
+      <navigator url="" open-type="navigate" hover-class="navigator-hover">
+      <text>热门推荐</text>       
+      </navigator>
+    </view>
+    <view class="paihang">
+      <image src="/images/排行榜.png" mode="scaleToFill"></image>
+      <navigator url="" open-type="navigate" hover-class="navigator-hover">
+      <text>排行榜</text>       
+      </navigator>
+    </view>
+</view>
+<!-- 热播列表 -->
+<view class="hotList">
+    <block wx:for="{{hotList}}">
+      <view class="video-item" bindtap="guankan">
+        <view>
+          <image src="{{item.coverImg}}" style="width:350rpx; height: 200rpx;"></image> 
+        </view>
+        <view class="video-item-text">{{item.title}}</view>
+        <view class="bofang-data">
+              <view class="play-image"><image src="/images/播放.png" mode="scaleToFill"></image></view>
+              <view class="bofang-num">{{item.playNum}}</view>
+              <view class="play-image"><image src="/images/弹幕.png" mode="scaleToFill"></image></view>
+               <view class="bofang-num">{{item.commentNum}}</view>               
+      </view>
+    </view>
+    </block>
+</view>
+<!-- 热血动漫 -->
+<view class="hot_Title">
+    <view class="tuijian">
+      <image src="/images/燃.png" mode="scaleToFill"></image>
+      <navigator url="" open-type="navigate" hover-class="navigator-hover">
+      <text style="color: #1296db;">热血动漫</text>       
+      </navigator>
+    </view>
+</view>
+<!-- 播放列表 -->
+<view class="hotList">
+    <block wx:for="{{rexueList}}">
+      <view class="video-item" bindtap="guankan">
+        <view>
+          <image src="{{item.coverImg}}" style="width:350rpx; height: 200rpx;"></image> 
+        </view>
+        <view class="video-item-text">{{item.title}}</view>
+        <view class="bofang-data">
+              <view class="play-image"><image src="/images/播放.png" mode="scaleToFill"></image></view>
+              <view class="bofang-num">{{item.playNum}}</view>
+              <view class="play-image"><image src="/images/弹幕.png" mode="scaleToFill"></image></view>
+               <view class="bofang-num">{{item.commentNum}}</view>               
+      </view>
+    </view>
+    </block>
+</view>
+<!-- 搞笑动漫 -->
+<view class="hot_Title">
+    <view class="tuijian">
+      <image src="/images/搞笑.png" mode="scaleToFill" style="width:70rpx ; height: 70rpx;"></image>
+      <navigator url="" open-type="navigate" hover-class="navigator-hover">
+      <text style="color: #1296db;"  style="margin-left: 10rpx;">搞笑动漫</text>       
+      </navigator>
+    </view>
+</view>
+<!-- 播放列表 -->
+<view class="hotList">
+    <block wx:for="{{gaoxiaoList}}">
+      <view class="video-item" bindtap="guankan">
+        <view>
+          <image src="{{item.image}}" style="width:350rpx; height: 200rpx;"></image> 
+        </view>
+        <view class="video-item-text">{{item.title}}</view>
+        <view class="bofang-data">
+              <view class="play-image"><image src="/images/播放.png" mode="scaleToFill"></image></view>
+              <view class="bofang-num">{{item.playNum}}</view>
+              <view class="play-image"><image src="/images/弹幕.png" mode="scaleToFill"></image></view>
+               <view class="bofang-num">{{item.danmuList}}</view>               
+      </view>
+    </view>
+    </block>
+</view>
+

@@ -1,0 +1,33 @@
+<view class="user">
+    <view class="user-wrapper">
+        <view class="flex-cont flex-simple">
+          <view class="s-img"><image src="{{avatarUrl}}" mode="scaleToFill"></image></view>
+          <view class="flex-item">
+            <text class="s-tit">{{nickName}}</text>
+            <text class="s-desc">硬币：{{yingbiNum}}</text>
+          </view>
+        </view>
+    </view>
+  <view class="act-wrapper">
+  <view class="act-item">
+  <view class="bili-icon-history-2"><image src="../../resources/images/历史记录.png"></image></view>
+  <text class="act-name">历史记录</text>
+  <view class="bili-icon-arrow"><image src="../../resources/images/more.png"></image></view>
+  </view>
+  <text class="act-tooltip">{{message}}</text>
+  </view>
+  <!-- 加入一个条件渲染 ，如果未登录 则显示需要登录或者注册 -->
+  <view class="account-wrapper" wx:if="{{condition == 1}}">
+  <button class="account-btn" bindtap="login" type="default">登  录</button>
+  <text class="account-register account-btn">注 册</text>
+  <text class="reg-tooltip">{{message2}}</text>
+  </view>
+  <!-- 登录成功之后所要显示的页面 -->
+  <view class="yijian" wx:else>
+  <view class="yijian1">
+    <text class="yijian2">意见反馈</text>
+  </view>
+  </view>
+</view>
+
+ 

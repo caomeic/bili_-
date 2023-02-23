@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "cloud-tip-modal": "/components/cloudTipModal/index"
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#EA6CAF",
+    "navigationBarTitleText": "One piece",
+    "navigationBarTextStyle": "white"
+
+  }
+}

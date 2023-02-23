@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/sort/sort",
+    "pages/me/me",
+    "pages/detail/detail",
+    "pages/play/play",
+    "pages/sortDetail/sortDetail"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#EA6CAF",
+    "navigationBarTitleText": "One piece",
+    "navigationBarTextStyle": "white",
+    "navigationStyle": "custom"
+  },
+ "tabBar": {
+   "list": [{
+     "pagePath": "pages/index/index",
+     "text": "首页",
+     "iconPath": "./images/tabBar/首页icon.png",
+     "selectedIconPath": "./images/tabBar/首页 select.png"
+   },
+   {
+    "pagePath": "pages/sort/sort",
+    "text": "分类",
+    "iconPath": "./images/tabBar/分类.png",
+    "selectedIconPath": "./images/tabBar/分类 select.png"
+  },
+  {
+    "pagePath": "pages/me/me",
+    "text": "我的",
+    "iconPath": "./images/tabBar/me.png",
+    "selectedIconPath": "./images/tabBar/select me.png"
+  }]},
+
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

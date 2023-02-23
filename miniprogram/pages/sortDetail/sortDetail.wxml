@@ -1,0 +1,19 @@
+<!-- 返回上一层的按钮 -->
+<view class="fanhui">
+    <image src="/images/返回.png" mode="scaleToFill" bindtap="fanhui" style="width: 40rpx; height: 40rpx; margin-left: 40rpx; margin-top: 130rpx; position: absolute"></image>
+    <view class="title">{{title}}</view>
+</view>
+
+<view class="videoList">
+    <block wx:for="{{viewList}}">
+      <view class="sort-item" bindtap="sortdetail" id="{{item.id}}">
+        <view class="img">
+          <image src="{{item.video_img}}" mode="scaleToFill" style="height: 150rpx; width: 200rpx; border-radius: 10rpx;"></image> 
+        </view>
+        <view class="video-item-text">{{item.video_name}}</view>
+    </view>
+    </block>
+</view>
+
+
+

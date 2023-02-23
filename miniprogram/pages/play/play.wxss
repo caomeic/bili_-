@@ -1,0 +1,87 @@
+/* 返回上一层样式 */
+.fanhui{
+    width: 750rpx;
+    height: 200rpx;
+}
+/* 视频标题 */
+.video-title{
+    height: 70rpx;
+    width: 750rpx;
+    font-size: 30rpx;
+    font-weight: 100;
+    color:blueviolet;
+    margin-left: 20rpx;
+}
+.video-title image{
+    height: 40rpx;
+    width: 40rpx;
+    margin-left: 20rpx;
+}
+/* 视频和弹幕区域 */
+.section tc{
+    align-content: center;
+    height: 400rpx;
+    width: 750rpx;
+
+}
+/* 视频样式 */
+.video{
+    height: 400rpx;
+    width: 750rpx;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10rpx;
+}
+/* 发送弹幕的区域 */
+.btn-area{
+    height: 100rpx;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20rpx;
+    
+}
+.btn-area button{
+    height: 70rpx;
+    width: 150rpx;
+    background-color: coral;
+    font-size: 21rpx;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    float: right;
+    margin-right: 10rpx;
+}
+.btn-area input{
+    width: 600rpx;
+    height: 60rpx;
+    margin-left: 10rpx;
+    margin-right: 10rpx;
+    border: 1rpx solid darkgray;
+    border-radius: 10rpx;
+}
+
+/*分享区域 */
+.fenxiang{
+    height: 100rpx;
+    width: 750rpx;
+    display: flex;
+    flex-direction: row;
+    font-size: smaller;
+}
+
+.fenxiang-img{
+    height: 100rpx;
+    width: 120rpx;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+}
+
+.fenxiang-img image{
+    margin-left: 40rpx;
+    height: 40rpx;
+    width: 40rpx;
+}
+

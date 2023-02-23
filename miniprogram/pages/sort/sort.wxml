@@ -1,0 +1,15 @@
+<!--分区  begin-->
+<!-- 实现顶部空白 -->
+<view style="height: 200rpx;"></view>
+
+<view class="sortList">
+    <block wx:for="{{sortList}}">
+      <view class="sort-item" bindtap="sortdetail" id="{{item.id}}">
+        <view>
+          <image src="{{item.logo}}" mode="scaleToFill"></image> 
+        </view>
+        <view class="video-item-text">{{item.title}}</view>
+    </view>
+    </block>
+</view>
+  <!--分区  end-->

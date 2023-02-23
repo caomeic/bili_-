@@ -1,0 +1,20 @@
+/* pages/sort/sort.wxss */
+
+.sortList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 20rpx;
+}
+
+.sort-item{
+    height: 200rpx;
+    width: 100rpx;
+    margin-left: 40rpx;
+    margin-right: 40rpx;
+}
+
+.sort-item image{
+    height: 80rpx;
+    width: 80rpx;
+}

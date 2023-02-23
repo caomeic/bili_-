@@ -1,0 +1,13 @@
+<view style="height: 100rpx;"></view>
+<view class="warp">
+<view wx:for="{{noteList}}">
+<!-- 通知标题 -->
+<view class="title">{{item.note_tittle}}</view>
+<!-- 通知图片 -->
+<view class="img"><image src="{{item.note_photo}}" class="in-img" background-size = "cover" model="scaleToFill"></image></view>
+<!-- 通知内容 -->
+<rich-text class="content" nodes="{{item.note_content}}" ></rich-text>
+</view>
+<hr/>
+<input class="close" type="button" value="返回" bindtap="closepages" style="border-radius:5px;"/>
+</view>
