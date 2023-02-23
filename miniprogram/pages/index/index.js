@@ -8,8 +8,23 @@ Page({
   // 页面初始数据
   data :{
     id : 1,
-    imgList : [],
-    textList : [],
+    imgList : [
+      {
+        photo:'images/轮播/海贼王.jpg'
+      },
+      {
+        photo:'images/轮播/海贼王2.jpg'
+      }
+    ],
+    textList : [
+      {
+      tz_title:'hello world',
+    },
+    {
+      tz_title:'你好世界'
+    }
+      
+    ],
     gaoxiaoList : [],
     hotList : [
       {
